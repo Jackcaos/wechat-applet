@@ -7,13 +7,12 @@
  */
 namespace app\api\model;
 
-use think\Model;
-
-class Image extends Model{
+class Image extends BaseModel
+{
       protected $hidden = ['delete_time','update_time'];
 
-      //图片读取器的编写
-    public function getUrlAttr($value){   //这里取得的是图片的Url:'/banner-1a.jpg'
-        return config('setting.img_prefix').$value;
-    }
+      //与基类BaseModel的preImgUrl构建成读取器
+      public function getUrlAttr($value,$data){
+          return $this->prefixImgUrl($value,$data);
+      }
 }
