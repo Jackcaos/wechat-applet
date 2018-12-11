@@ -13,14 +13,15 @@ use think\Model;
 
 class Banner extends Model
 {
-//    protected $hidden = ['update_time','delete_time'];
-//    public function items(){
-//        return $this->hasMany('BannerItem','banner_id','id');
-//    }
+    protected $hidden = ['update_time','delete_time'];
+
+    public function items(){
+        return $this->hasMany('BannerItem','banner_id','id');
+    }
     public static function getBannerByID($id){
-      $result = Db::table('banner_item')
-          ->where('banner_id','=',$id)
-          ->select();
-      return $result;
+        $banner = self::with(['items','items.img'])
+            ->find($id);                 //调用自己的静态模型类方法
+
+        return $banner;
     }
 }

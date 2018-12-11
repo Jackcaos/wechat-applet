@@ -12,8 +12,8 @@ use app\api\model\Banner as BannerModel;
 class Banner {
     public function getBanner($id)
     {
-        (new IDMustBePostiveint())->goCheck();//检测数据id
-        $banner = BannerModel::getBannerByID($id);//调用获取Banner的model方法
+        (new IDMustBePostiveint())->goCheck();     //检测数据id
+        $banner = BannerModel::getBannerByID($id);    //调用获取Banner的model方法
         return $banner;
     }
 }
