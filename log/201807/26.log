@@ -1,0 +1,6 @@
+---------------------------------------------------------------
+[ 2018-07-26T08:14:07+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.684811s][吞吐率：0.59req/s] [内存消耗：2,486.43kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036889s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.054777s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.002018s ]

@@ -1,0 +1,132 @@
+---------------------------------------------------------------
+[ 2018-06-29T09:54:21+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=15
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=15 [运行时间：0.169628s][吞吐率：5.90req/s] [内存消耗：1,858.63kb] [文件加载：48]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092738s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.021932s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001477s ]
+---------------------------------------------------------------
+[ 2018-06-29T09:55:00+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=15
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=15 [运行时间：0.077401s][吞吐率：12.92req/s] [内存消耗：1,890.18kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005686s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.020303s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001477s ]
+---------------------------------------------------------------
+[ 2018-06-29T09:55:16+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=15
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=15 [运行时间：0.113090s][吞吐率：8.84req/s] [内存消耗：1,960.20kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006500s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.021125s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001460s ]
+---------------------------------------------------------------
+[ 2018-06-29T09:55:50+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=15
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=15 [运行时间：0.081806s][吞吐率：12.22req/s] [内存消耗：1,869.63kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006240s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.020643s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 15 [ RunTime:0.001647s ]
+---------------------------------------------------------------
+[ 2018-06-29T10:02:27+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=5
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=5 [运行时间：0.167179s][吞吐率：5.98req/s] [内存消耗：1,866.28kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092839s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.020967s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.001213s ]
+---------------------------------------------------------------
+[ 2018-06-29T10:21:58+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=5
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=5 [运行时间：0.411662s][吞吐率：2.43req/s] [内存消耗：1,967.35kb] [文件加载：52]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.128954s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.025112s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.001298s ]
+---------------------------------------------------------------
+[ 2018-06-29T10:22:26+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=5
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=5 [运行时间：0.093942s][吞吐率：10.64req/s] [内存消耗：1,866.28kb] [文件加载：50]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006631s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.023309s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.001443s ]
+---------------------------------------------------------------
+[ 2018-06-29T10:27:30+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/recent?count=5
+[ info ] localhost:8081/index.php/api/v1/product/recent?count=5 [运行时间：0.091690s][吞吐率：10.91req/s] [内存消耗：1,963.53kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006149s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.028741s ]
+[ sql ] [ SQL ] SELECT * FROM `product` ORDER BY create_time desc LIMIT 5 [ RunTime:0.001227s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:29:15+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.294594s][吞吐率：3.39req/s] [内存消耗：2,009.05kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.092773s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.031460s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001067s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:29:43+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.090917s][吞吐率：11.00req/s] [内存消耗：1,951.22kb] [文件加载：49]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006230s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.030284s ]
+[ sql ] [ SQL ] SELECT * FROM `category` WHERE  `id` = 0 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:29:56+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.090136s][吞吐率：11.09req/s] [内存消耗：2,009.05kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005684s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.028938s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001089s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:30:27+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.108528s][吞吐率：9.21req/s] [内存消耗：2,009.02kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007603s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.033212s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001219s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:30:50+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.143025s][吞吐率：6.99req/s] [内存消耗：2,015.34kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006388s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.029620s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000973s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.028155s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001126s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:31:06+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.122443s][吞吐率：8.17req/s] [内存消耗：2,015.37kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006772s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.028843s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.026860s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001071s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:32:17+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.127039s][吞吐率：7.87req/s] [内存消耗：2,015.73kb] [文件加载：53]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006356s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.028993s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.000815s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.023294s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (6,5,7,4,8,9) [ RunTime:0.001068s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:59:20+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/by_category?id=3
+[ info ] localhost:8081/index.php/api/v1/product/by_category?id=3 [运行时间：0.220719s][吞吐率：4.53req/s] [内存消耗：2,002.26kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.111509s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.027554s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 0 [ RunTime:0.001487s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:59:35+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/by_category?id=2
+[ info ] localhost:8081/index.php/api/v1/product/by_category?id=2 [运行时间：0.097631s][吞吐率：10.24req/s] [内存消耗：2,002.26kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005974s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.025239s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 0 [ RunTime:0.001179s ]
+---------------------------------------------------------------
+[ 2018-06-29T12:59:39+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/by_category?id=1
+[ info ] localhost:8081/index.php/api/v1/product/by_category?id=1 [运行时间：0.118028s][吞吐率：8.47req/s] [内存消耗：2,002.26kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014195s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.032871s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 0 [ RunTime:0.001211s ]
+---------------------------------------------------------------
+[ 2018-06-29T13:02:04+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/by_category?id=1
+[ info ] localhost:8081/index.php/api/v1/product/by_category?id=1 [运行时间：0.097166s][吞吐率：10.29req/s] [内存消耗：2,002.23kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006339s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.030474s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 1 [ RunTime:0.002621s ]
+---------------------------------------------------------------
+[ 2018-06-29T13:02:06+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/by_category?id=1
+[ info ] localhost:8081/index.php/api/v1/product/by_category?id=1 [运行时间：0.091201s][吞吐率：10.96req/s] [内存消耗：2,002.23kb] [文件加载：54]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.009167s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.027367s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 1 [ RunTime:0.001119s ]
+---------------------------------------------------------------
+[ 2018-06-29T13:02:11+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/by_category?id=3
+[ info ] localhost:8081/index.php/api/v1/product/by_category?id=3 [运行时间：0.088970s][吞吐率：11.24req/s] [内存消耗：1,970.12kb] [文件加载：51]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006220s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.032287s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `category_id` = 3 [ RunTime:0.001477s ]

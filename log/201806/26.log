@@ -1,0 +1,482 @@
+---------------------------------------------------------------
+[ 2018-06-26T14:56:52+08:00 ] 0.0.0.0 GET /index.php/banner/1
+[ info ] localhost:8081/index.php/banner/1 [运行时间：0.104952s][吞吐率：9.53req/s] [内存消耗：1,084.72kb] [文件加载：42]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3043272704',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:8081',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\phpStudy\PHPTutorial\WWW\tp5\application\api\controller\v1\Banner.php ]
+[ info ] [ LOG ] INIT File
+[ error ] [0]模板[F:\phpStudy\PHPTutorial\WWW\tp5\application\api\controller\v1\Banner.php:19]
+---------------------------------------------------------------
+[ 2018-06-26T16:45:01+08:00 ] 0.0.0.0 GET /index.php/banner/1
+[ info ] localhost:8081/index.php/banner/1 [运行时间：0.072421s][吞吐率：13.81req/s] [内存消耗：1,114.06kb] [文件加载：44]
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce[F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19]
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T16:58:30+08:00 ] 0.0.0.0 GET /index.php/banner/1
+[ info ] localhost:8081/index.php/banner/1 [运行时间：0.046712s][吞吐率：21.41req/s] [内存消耗：1,114.48kb] [文件加载：44]
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce[F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19]
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:15:54+08:00 ] 0.0.0.0 GET /index.php/banner/1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:16:13+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:19:21+08:00 ] 0.0.0.0 GET /index.php/
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:33:38+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:42:45+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:45:23+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:01+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:02+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:03+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:03+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:03+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:04+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:04+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T17:46:05+08:00 ] 0.0.0.0 GET /index.php/banner/0.1
+[ error ] [1]Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+[ error ] Uncaught think\exception\ErrorException: Declaration of app\lib\exception\ExceptionHandler::render(think\Exception $e) should be compatible with think\exception\Handle::render(Exception $e) in F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php:19
+Stack trace:
+#0 F:\phpStudy\PHPTutorial\WWW\tp5\application\lib\exception\ExceptionHandler.php(19): think\Error::appError(2, 'Declaration of ...', 'F:\\phpStudy\\PHP...', 19, Array)
+#1 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(646): include('F:\\phpStudy\\PHP...')
+#2 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Loader.php(85): think\__include_file('F:\\phpStudy\\PHP...')
+#3 [internal function]: think\Loader::autoload('app\\lib\\excepti...')
+#4 [internal function]: spl_autoload_call('app\\lib\\excepti...')
+#5 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(120): class_exists('app\\lib\\excepti...')
+#6 F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\library\think\Error.php(46): think\Error::getExce
+---------------------------------------------------------------
+[ 2018-06-26T19:32:36+08:00 ] 0.0.0.0 GET /index.php/api/v1/banner/1
+[ info ] localhost:8081/index.php/api/v1/banner/1 [运行时间：0.463565s][吞吐率：2.16req/s] [内存消耗：1,232.31kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3043272704',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'localhost:8081',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\phpStudy\PHPTutorial\WWW\tp5\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.328877s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] select * from banner_item where banner_id='1' [ RunTime:0.041185s ]
+---------------------------------------------------------------
+[ 2018-06-26T19:33:11+08:00 ] 0.0.0.0 GET /index.php/api/v1/banner/1
+[ info ] localhost:8081/index.php/api/v1/banner/1 [运行时间：0.045125s][吞吐率：22.16req/s] [内存消耗：1,232.72kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3043272704',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:8081',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\phpStudy\PHPTutorial\WWW\tp5\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006379s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] select * from banner_item where banner_id='1' [ RunTime:0.001085s ]
+---------------------------------------------------------------
+[ 2018-06-26T19:35:45+08:00 ] 0.0.0.0 GET /index.php/api/v1/banner/1
+[ info ] localhost:8081/index.php/api/v1/banner/1 [运行时间：0.045624s][吞吐率：21.92req/s] [内存消耗：1,232.14kb] [文件加载：40]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=3043272704',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3464.0 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => 'localhost:8081',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\phpStudy\PHPTutorial\WWW\tp5\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007060s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] select * from banner_item where id='1' [ RunTime:0.000979s ]
+---------------------------------------------------------------
+[ 2018-06-26T19:38:29+08:00 ] 0.0.0.0 GET /index.php/api/v1/banner/1
+[ info ] localhost:8081/index.php/api/v1/banner/1 [运行时间：0.063496s][吞吐率：15.75req/s] [内存消耗：1,234.48kb] [文件加载：41]
+[ info ] [ LANG ] F:\phpStudy\PHPTutorial\WWW\tp5\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'v1.Banner',
+    2 => 'getBanner',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'connection' => 'close',
+  'accept-encoding' => 'gzip, deflate',
+  'host' => 'localhost:8081',
+  'accept' => '*/*',
+  'user-agent' => 'PostmanRuntime/7.1.5',
+  'postman-token' => '6e6ad845-7f9c-49d9-a152-b49ad0ebcab6',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\api\controller\v1\Banner->getBanner[ F:\phpStudy\PHPTutorial\WWW\tp5\application\api\controller\v1\Banner.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005708s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] select * from banner_item where id='1' [ RunTime:0.001208s ]

@@ -1,0 +1,55 @@
+---------------------------------------------------------------
+[ 2018-07-22T00:21:06+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.597094s][吞吐率：1.67req/s] [内存消耗：2,002.30kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008559s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.245295s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001505s ]
+---------------------------------------------------------------
+[ 2018-07-22T00:21:47+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.447118s][吞吐率：2.24req/s] [内存消耗：2,005.82kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006579s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017406s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001077s ]
+---------------------------------------------------------------
+[ 2018-07-22T01:53:59+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.585272s][吞吐率：0.63req/s] [内存消耗：2,010.11kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.014180s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.045453s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.008652s ]
+---------------------------------------------------------------
+[ 2018-07-22T02:00:30+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.496921s][吞吐率：2.01req/s] [内存消耗：2,029.21kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.086646s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.022589s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.024279s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.034219s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.000871s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`name` , `mobile` , `province` , `city` , `country` , `detail` , `user_id`) VALUES ('qiyue' , '18888888888' , 'hunan' , 'chenzhou' , 'zhongguo' , '123' , 6) [ RunTime:0.075740s ]
+---------------------------------------------------------------
+[ 2018-07-22T02:00:43+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.096515s][吞吐率：10.36req/s] [内存消耗：2,062.65kb] [文件加载：59]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004545s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.020827s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000902s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.014272s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.001094s ]
+---------------------------------------------------------------
+[ 2018-07-22T15:10:29+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.958150s][吞吐率：0.51req/s] [内存消耗：2,010.77kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.034860s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.047870s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.003683s ]
+---------------------------------------------------------------
+[ 2018-07-22T15:10:51+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.317928s][吞吐率：3.15req/s] [内存消耗：2,267.57kb] [文件加载：66]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013103s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.022298s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001151s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.015813s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 6 LIMIT 1 [ RunTime:0.002132s ]
+---------------------------------------------------------------
+[ 2018-07-22T15:13:27+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：5.399825s][吞吐率：0.19req/s] [内存消耗：2,010.11kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007211s ] mysql:host=127.0.0.1;port=3306;dbname=zerg;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.024880s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001284s ]
