@@ -6,3 +6,8 @@
 
  Route::get('api/:version/theme','api/:version.Theme/getSimpleList');
  Route::get('api/:version/theme/:id','api/:version.Theme/getTheme');
+
+Route::get('api/:version/product/getNew','api/:version.Product/getNew');
+Route::get('api/:version/product/getCategory','api/:version.Product/getCategoryProduct');
+
+Route::get('api/:version/category/all','api/:version.Category/getAll');

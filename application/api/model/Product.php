@@ -17,4 +17,15 @@ class Product extends BaseModel
     public function getMainImgUrlAttr($value,$data){
         return $this->prefixImgUrl($value,$data);
     }
+
+    //获取最近新品
+    public static function getNewProduct($count){
+        $product = self::limit($count)->order('create_time desc')->select();
+        return $product;
+    }
+
+    public static function getCategoryPro($id){
+        $product = self::where('category_id','=',$id)->select();
+        return $product;
+    }
 }
