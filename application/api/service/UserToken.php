@@ -8,10 +8,10 @@
 
 namespace app\api\service;
 
-
 use think\Exception;
+use app\api\model\User as UserModel;
 
-class UserToken
+class UserToken extends Token
 {
     protected $code;
     protected $wxAppID;
@@ -37,7 +37,7 @@ class UserToken
            if($loginFail){
                $this->processLoginError($wxResult);
            }else{
-               $this->grantToken($wxResult);
+              return $this->grantToken($wxResult);     //一定要进行返回
            }
        }
     }
@@ -50,6 +50,41 @@ class UserToken
         //生成令牌，并返回到客户端
         //写缓存，key是令牌，value是wxResult和uid,scope
         $openid = $wxResult['openid'];
+        $user = UserModel::getOpenId($openid);
+        if($user){
+            $uid = $user->id;
+        }else{
+            $uid = $this->createUser($openid);
+        }
+
+        $cache = $this->createCache($wxResult,$uid);
+        $token = $this->writeCache($cache);
+        return $token;
+    }
+
+    private function writeCache($cache){
+        $key = self::getToken();
+        $value = json_encode($cache);
+        $expire_in = config('setting.token_expire_in');
+
+        $res = cache($key,$value,$expire_in);    //tp5的助手函数生成一个cache
+        if(!$res){
+            throw new Exception("缓存出现异常，请稍后重试");
+        }
+        return $key;
+    }
+
+    private function createCache($wxResult,$uid){
+        $cacheValue = $wxResult;
+        $cacheValue['uid'] = $uid;
+        $cacheValue['scope'] = 16;
+        return $cacheValue;
+    }
+
+    //创建新用户，并将其的新id返回
+    private function createUser($openid){
+        $user = UserModel::create(['openid' => $openid]);
+        return $user->id;
     }
 
     private function processLoginError($wxResult){
