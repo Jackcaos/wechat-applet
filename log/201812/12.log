@@ -276,3 +276,11 @@
 [ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001362s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.044135s ]
 [ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (11,9,10,12,8) [ RunTime:0.001257s ]
+---------------------------------------------------------------
+[ 2018-12-12T23:40:17+08:00 ] 0.0.0.0 GET /index.php/api/v1/category/all
+[ info ] localhost:8081/index.php/api/v1/category/all [运行时间：0.750996s][吞吐率：1.33req/s] [内存消耗：2,501.34kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.007325s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `category` [ RunTime:0.062597s ]
+[ sql ] [ SQL ] SELECT * FROM `category` [ RunTime:0.001231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.042467s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (11,9,10,12,8) [ RunTime:0.001723s ]
