@@ -12,13 +12,13 @@ namespace app\api\validate;
 class IDCollection extends BaseValidate
 {
     protected $rule = [
-        'ids'=>'require|checkIDs'
+        'string'=>'require|checkIDs'
     ];
 
     protected $message = [
-        'ids' => 'ids必须是以逗号分隔的多个整数'
+        'string' => 'string必须是以逗号分隔的多个整数'
     ];
-    //ids = id1,id2
+    //string = string1,string2
     protected function checkIDs($value){
         $values = explode(',',$value);
         if(empty($values)){

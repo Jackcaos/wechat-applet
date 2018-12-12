@@ -1,0 +1,152 @@
+---------------------------------------------------------------
+[ 2018-12-12T00:56:25+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=1,2,3
+[ info ] localhost:8081/index.php/api/v1/theme?string=1,2,3 [运行时间：0.606722s][吞吐率：1.65req/s] [内存消耗：2,765.27kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002576s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.043451s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001174s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.028018s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (5,6,7) [ RunTime:0.000867s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:16:58+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=1,2,3
+[ info ] localhost:8081/index.php/api/v1/theme?string=1,2,3 [运行时间：1.078504s][吞吐率：0.93req/s] [内存消耗：2,765.33kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.063228s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.070812s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.019231s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.031115s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (5,6,7) [ RunTime:0.001032s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:18:20+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=1,2,3
+[ info ] localhost:8081/index.php/api/v1/theme?string=1,2,3 [运行时间：0.573032s][吞吐率：1.75req/s] [内存消耗：2,765.66kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001592s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.044745s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3) [ RunTime:0.001060s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.030535s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (5,6,7) [ RunTime:0.000889s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:23:04+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=1,2,3,4
+[ info ] localhost:8081/index.php/api/v1/theme?string=1,2,3,4 [运行时间：0.554366s][吞吐率：1.80req/s] [内存消耗：2,766.38kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011906s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.032906s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (1,2,3,4) [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.026417s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` IN (5,6,7) [ RunTime:0.001009s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:23:16+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=10
+[ info ] localhost:8081/index.php/api/v1/theme?string=10 [运行时间：0.607535s][吞吐率：1.65req/s] [内存消耗：2,762.83kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001574s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.032484s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (10) [ RunTime:0.102979s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:23:23+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=10,12
+[ info ] localhost:8081/index.php/api/v1/theme?string=10,12 [运行时间：0.501390s][吞吐率：1.99req/s] [内存消耗：2,763.40kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001746s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.033735s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (10,12) [ RunTime:0.001357s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:24:07+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=10,12
+[ info ] localhost:8081/index.php/api/v1/theme?string=10,12 [运行时间：0.521059s][吞吐率：1.92req/s] [内存消耗：2,763.40kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010887s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.034621s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (10,12) [ RunTime:0.000856s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:24:25+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=10,12
+[ info ] localhost:8081/index.php/api/v1/theme?string=10,12 [运行时间：0.516406s][吞吐率：1.94req/s] [内存消耗：2,763.45kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001697s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.045597s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (10,12) [ RunTime:0.000893s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:24:36+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme?string=10,12
+[ info ] localhost:8081/index.php/api/v1/theme?string=10,12 [运行时间：0.525212s][吞吐率：1.90req/s] [内存消耗：2,763.45kb] [文件加载：64]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001402s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.042432s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` IN (10,12) [ RunTime:0.000829s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:41:19+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.790406s][吞吐率：1.27req/s] [内存消耗：2,891.30kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002716s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.056817s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.038050s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.038378s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.024238s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.035978s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000856s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000892s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:55:02+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/5
+[ info ] localhost:8081/index.php/api/v1/theme/5 [运行时间：1.007078s][吞吐率：0.99req/s] [内存消耗：2,848.02kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002049s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.046991s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 5 LIMIT 1 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[ 2018-12-12T14:55:10+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.645781s][吞吐率：1.55req/s] [内存消耗：2,891.54kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001425s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.042999s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.037161s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.034838s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001081s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.035540s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000725s ]
+---------------------------------------------------------------
+[ 2018-12-12T15:03:32+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.626261s][吞吐率：1.60req/s] [内存消耗：2,891.87kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001959s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.036697s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000940s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.027022s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.028181s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.028149s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000929s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000792s ]
+---------------------------------------------------------------
+[ 2018-12-12T15:07:53+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.683401s][吞吐率：1.46req/s] [内存消耗：2,892.58kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011999s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.042911s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001196s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.038420s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.038738s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000950s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.028596s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000892s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000899s ]
+---------------------------------------------------------------
+[ 2018-12-12T15:09:03+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.658099s][吞吐率：1.52req/s] [内存消耗：2,892.59kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012069s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.041125s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.040751s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.035336s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.000985s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.028824s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000673s ]
+---------------------------------------------------------------
+[ 2018-12-12T15:11:06+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.666598s][吞吐率：1.50req/s] [内存消耗：2,892.57kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001718s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.041054s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001071s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.046394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.034516s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001207s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.038782s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000837s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000775s ]
+---------------------------------------------------------------
+[ 2018-12-12T15:11:26+08:00 ] 0.0.0.0 GET /index.php/api/v1/theme/1
+[ info ] localhost:8081/index.php/api/v1/theme/1 [运行时间：0.608668s][吞吐率：1.64req/s] [内存消耗：2,892.59kb] [文件加载：67]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001473s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme` [ RunTime:0.034835s ]
+[ sql ] [ SQL ] SELECT * FROM `theme` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000849s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `theme_product` [ RunTime:0.027035s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.028041s ]
+[ sql ] [ SQL ] SELECT `product`.*,pivot.theme_id AS pivot__theme_id,pivot.product_id AS pivot__product_id FROM `product` INNER JOIN `theme_product` `pivot` ON `pivot`.`product_id`=`product`.`id` WHERE  `pivot`.`theme_id` = 1 [ RunTime:0.001086s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `image` [ RunTime:0.027090s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SELECT * FROM `image` WHERE  `id` = 5 [ RunTime:0.000785s ]
