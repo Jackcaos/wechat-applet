@@ -11,3 +11,5 @@ Route::get('api/:version/product/getNew','api/:version.Product/getNew');
 Route::get('api/:version/product/getCategory','api/:version.Product/getCategoryProduct');
 
 Route::get('api/:version/category/all','api/:version.Category/getAll');
+
+Route::post('api/:version/token/user','api/:version.Token/getToken');

@@ -50,20 +50,20 @@ class BaseValidate extends Validate
 
     protected function isNotEmpty($value,$rule = '',$data = '',$field=''){
           if(empty($value)){
-              return $field . '不允许为空';
+              return false;
           }else{
               return true;
           }
     }
 
-    public function getDataByRule($arrays){
-      if(array_key_exists('user_id',$arrays)|array_key_exists('uid',$arrays)){
-          throw new Exception("恶意请求");
-      }
-      $newArray = [];
-      foreach ($this->rule as $key =>$value){
-          $newArray[$key] = $arrays[$key];
-      }
-      return $newArray;
-    }
+//    public function getDataByRule($arrays){
+//      if(array_key_exists('user_id',$arrays)|array_key_exists('uid',$arrays)){
+//          throw new Exception("恶意请求");
+//      }
+//      $newArray = [];
+//      foreach ($this->rule as $key =>$value){
+//          $newArray[$key] = $arrays[$key];
+//      }
+//      return $newArray;
+//    }
 }
