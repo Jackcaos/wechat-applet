@@ -40,8 +40,11 @@ class Product extends BaseModel
     }
 
     public static function getProductResource($id){
-         $product = self::with('img.connectImg,productIntroduce')
-             ->find($id);
+         $product = self::with([
+             'img'=>function($query){
+                 $query->with(['connectImg'])->order('order','asc');
+             }
+         ])->with(['productIntroduce'])->find($id);
          return $product;
     }
 }

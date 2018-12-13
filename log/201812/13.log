@@ -130,3 +130,29 @@
 [ sql ] [ SQL ] SELECT * FROM `product_image` WHERE  `product_id` = 30 [ RunTime:0.000812s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `product_property` [ RunTime:0.025375s ]
 [ sql ] [ SQL ] SELECT * FROM `product_property` WHERE  `product_id` = 30 [ RunTime:0.000726s ]
+---------------------------------------------------------------
+[ 2018-12-13T16:26:47+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/30
+[ info ] localhost:8081/index.php/api/v1/product/30 [运行时间：0.571218s][吞吐率：1.75req/s] [内存消耗：2,574.66kb] [文件加载：61]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001766s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.028677s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000951s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_image` [ RunTime:0.026003s ]
+[ sql ] [ SQL ] SELECT * FROM `product_image` WHERE  `product_id` = 30 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_property` [ RunTime:0.024637s ]
+[ sql ] [ SQL ] SELECT * FROM `product_property` WHERE  `product_id` = 30 [ RunTime:0.000639s ]
+---------------------------------------------------------------
+[ 2018-12-13T16:34:59+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/30
+[ info ] localhost:8081/index.php/api/v1/product/30 [运行时间：0.934663s][吞吐率：1.07req/s] [内存消耗：2,575.02kb] [文件加载：62]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002070s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.035365s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000892s ]
+---------------------------------------------------------------
+[ 2018-12-13T16:35:16+08:00 ] 0.0.0.0 GET /index.php/api/v1/product/30
+[ info ] localhost:8081/index.php/api/v1/product/30 [运行时间：0.560912s][吞吐率：1.78req/s] [内存消耗：2,575.91kb] [文件加载：61]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001355s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product` [ RunTime:0.028174s ]
+[ sql ] [ SQL ] SELECT * FROM `product` WHERE  `id` = 30 LIMIT 1 [ RunTime:0.000795s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_image` [ RunTime:0.021926s ]
+[ sql ] [ SQL ] SELECT * FROM `product_image` WHERE  `product_id` = 30 ORDER BY `order`  asc [ RunTime:0.000755s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `product_property` [ RunTime:0.020279s ]
+[ sql ] [ SQL ] SELECT * FROM `product_property` WHERE  `product_id` = 30 [ RunTime:0.000786s ]
