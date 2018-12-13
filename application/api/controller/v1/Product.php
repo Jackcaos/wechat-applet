@@ -30,4 +30,13 @@ class Product
            $res = ProductModel::getCategoryPro($id);
            return $res;
       }
+
+      public function getProduct($id){
+          (new IDMustBePostiveint())->goCheck();
+           $res = ProductModel::getProductResource($id);
+           if(!$res){
+               throw new Exception("你所查找的商品不存在");
+           }
+           return $res;
+      }
 }

@@ -19,7 +19,6 @@ class BaseValidate extends Validate
       //对参数做校验
       $request = Request::instance();
       $param = $request->param();
-
       $res = $this->check($param);
       if(!$res){
           $error = $this->error;
