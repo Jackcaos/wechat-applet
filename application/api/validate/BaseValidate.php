@@ -55,14 +55,15 @@ class BaseValidate extends Validate
           }
     }
 
-//    public function getDataByRule($arrays){
-//      if(array_key_exists('user_id',$arrays)|array_key_exists('uid',$arrays)){
-//          throw new Exception("恶意请求");
-//      }
-//      $newArray = [];
-//      foreach ($this->rule as $key =>$value){
-//          $newArray[$key] = $arrays[$key];
-//      }
-//      return $newArray;
-//    }
+    //对参数进行过滤和筛选
+    public function getDataByRule($arrays){
+      if(array_key_exists('user_id',$arrays)|array_key_exists('uid',$arrays)){
+          throw new Exception("恶意请求");
+      }
+      $newArray = [];
+      foreach ($this->rule as $key =>$value){
+          $newArray[$key] = $arrays[$key];
+      }
+      return $newArray;
+    }
 }

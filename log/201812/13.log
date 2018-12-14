@@ -156,3 +156,72 @@
 [ sql ] [ SQL ] SELECT * FROM `product_image` WHERE  `product_id` = 30 ORDER BY `order`  asc [ RunTime:0.000755s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `product_property` [ RunTime:0.020279s ]
 [ sql ] [ SQL ] SELECT * FROM `product_property` WHERE  `product_id` = 30 [ RunTime:0.000786s ]
+---------------------------------------------------------------
+[ 2018-12-13T21:57:10+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：2.110942s][吞吐率：0.47req/s] [内存消耗：2,481.80kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003567s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.067605s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001132s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:02:14+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.745870s][吞吐率：1.34req/s] [内存消耗：2,481.80kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002081s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.050751s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001502s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:03:30+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.954052s][吞吐率：1.05req/s] [内存消耗：2,514.28kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001523s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039187s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000938s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:04:53+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.766132s][吞吐率：1.31req/s] [内存消耗：2,481.80kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001650s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.042012s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.000946s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:05:08+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.521081s][吞吐率：1.92req/s] [内存消耗：2,470.63kb] [文件加载：56]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011400s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.036223s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000893s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:06:07+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.749985s][吞吐率：1.33req/s] [内存消耗：2,481.80kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011526s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.046806s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.000986s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:06:21+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.538583s][吞吐率：1.86req/s] [内存消耗：2,545.68kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001529s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038545s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000908s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:07:30+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.324646s][吞吐率：0.75req/s] [内存消耗：2,481.80kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011358s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.050020s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.000998s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:07:43+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.961407s][吞吐率：1.04req/s] [内存消耗：2,513.16kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001881s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.044297s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000940s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:10:57+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.741411s][吞吐率：1.35req/s] [内存消耗：2,481.76kb] [文件加载：57]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001962s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.042509s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001128s ]
+---------------------------------------------------------------
+[ 2018-12-13T22:11:10+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：1.543757s][吞吐率：0.65req/s] [内存消耗：2,517.51kb] [文件加载：60]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001639s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.038832s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000937s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.034110s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001325s ]
+[ sql ] [ SQL ] INSERT INTO `user_address` (`name` , `mobile` , `province` , `city` , `country` , `detail` , `user_id`) VALUES ('Jackcaos' , '13873188111' , '湖南' , '长沙' , '中国' , '黄兴路1号' , 1) [ RunTime:0.990799s ]
