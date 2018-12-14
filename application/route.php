@@ -20,5 +20,8 @@ Route::get('api/:version/category/all','api/:version.Category/getAll');
 //增加或修改用户的地址信息
 Route::post('api/:version/address','api/:version.Address/addOrChangeAddress');
 
+//下单加入购物车
+Route::post('api/:version/order','api/:version.Order/orderProduct');
+
 //添加微信验证token
 Route::post('api/:version/token/user','api/:version.Token/getToken');

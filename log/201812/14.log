@@ -12,3 +12,47 @@
 [ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001023s ]
 [ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.032067s ]
 [ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001037s ]
+---------------------------------------------------------------
+[ 2018-12-14T09:16:43+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.827622s][吞吐率：0.55req/s] [内存消耗：2,482.72kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002833s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.039872s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001558s ]
+---------------------------------------------------------------
+[ 2018-12-14T09:17:19+08:00 ] 0.0.0.0 POST /index.php/api/v1/address
+[ info ] localhost:8081/index.php/api/v1/address [运行时间：0.648634s][吞吐率：1.54req/s] [内存消耗：2,816.57kb] [文件加载：66]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001654s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.034366s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user_address` [ RunTime:0.045054s ]
+[ sql ] [ SQL ] SELECT * FROM `user_address` WHERE  `user_id` = 1 LIMIT 1 [ RunTime:0.001244s ]
+---------------------------------------------------------------
+[ 2018-12-14T10:33:00+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.650960s][吞吐率：0.61req/s] [内存消耗：2,484.25kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005611s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.094341s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001917s ]
+---------------------------------------------------------------
+[ 2018-12-14T10:36:54+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.794884s][吞吐率：1.26req/s] [内存消耗：2,484.25kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002173s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.046360s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001313s ]
+---------------------------------------------------------------
+[ 2018-12-14T10:37:50+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：0.860699s][吞吐率：1.16req/s] [内存消耗：2,484.25kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005210s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.057796s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001186s ]
+---------------------------------------------------------------
+[ 2018-12-14T13:16:26+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：1.725641s][吞吐率：0.58req/s] [内存消耗：2,484.25kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011329s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.043497s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.001571s ]
+---------------------------------------------------------------
+[ 2018-12-14T22:02:40+08:00 ] 0.0.0.0 POST /index.php/api/v1/token/user
+[ info ] localhost:8081/index.php/api/v1/token/user [运行时间：2.375949s][吞吐率：0.42req/s] [内存消耗：2,484.25kb] [文件加载：58]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.047367s ] mysql:host=127.0.0.1;port=3306;dbname=mall;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.321458s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `openid` = 'oZEk3436Kt8SfhDbwPAY9Mok0UmM' LIMIT 1 [ RunTime:0.005439s ]
