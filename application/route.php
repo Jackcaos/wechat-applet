@@ -15,6 +15,7 @@ Route::get('api/:version/product/getCategory','api/:version.Product/getCategoryP
 Route::get('api/:version/product/:id','api/:version.Product/getProduct',[],['id'=>'\d+']);
 
 //获取所有的分类
+Route::get('api/:version/category/main','api/:version.Category/getMain');
 Route::get('api/:version/category/all','api/:version.Category/getAll');
 
 //增加或修改用户的地址信息

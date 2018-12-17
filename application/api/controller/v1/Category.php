@@ -16,4 +16,9 @@ class Category
        $product = CategoryModel::getAllCategories();
        return $product;
      }
+
+     public function getMain(){
+         $res = CategoryModel::getMainImg()->hidden(['topic_img_id','description','main_img_id']);
+         return $res;
+     }
 }

@@ -18,9 +18,9 @@ use think\Exception;
 class Theme extends Controller
 {
     //需要传递一个字符串形式的string例如 /theme?1,2,3
-    public function getSimpleList($string = ''){
+    public function getSimpleList($id = ''){
         (new IDCollection())->goCheck();
-        $arr = explode(',',$string);
+        $arr = explode(',',$id);
         $result = ThemeModel::with('topicImg','headImg')
             ->select($arr);
         if(!$result){

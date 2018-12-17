@@ -7,6 +7,6 @@
  */
 
 return [
-    'img_prefix' =>'localhost:8081/images',
+    'img_prefix' =>'http://localhost:8081/images',
     'token_expire_in'=>7200
 ];
